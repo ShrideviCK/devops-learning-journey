@@ -1,0 +1,145 @@
+Lab 1: Pull an Image
+
+Check existing images:
+
+Shell
+docker images
+
+Pull nginx:
+
+Shell
+docker pull nginx
+
+Verify:
+
+Shell
+docker images
+
+Observe:
+
+Plain Text
+REPOSITORY TAG
+nginx latest
+----------------------------------------------------------
+Lab 2: Run Container
+
+Run nginx:
+
+Shell
+docker run -d --name nginx-lab -p 8081:80 nginx
+
+Breakdown:
+
+Plain Text
+-d detached mode
+--name container name
+-p port mapping
+nginx image name
+
+Check:
+
+Shell
+docker ps
+
+Expected:
+
+Plain Text
+nginx-lab
+Up ...
+
+--------------------------------------------------------
+Lab 3: Access Application
+
+Open browser:
+
+Plain Text
+http://localhost:8081
+ 
+
+You should see:
+
+Plain Text
+Welcome to nginx!
+
+🎉 Your first containerized application is running.
+
+-----------------------------------------------------------
+Lab 4: Explore Container
+
+Check details:
+
+Shell
+docker inspect nginx-lab
+
+View logs:
+
+Shell
+docker logs nginx-lab
+
+Enter container:
+
+Shell
+docker exec -it nginx-lab bash
+
+Inside:
+
+Shell
+pwd
+ 
+hostname
+ 
+ls
+
+Exit:
+
+Shell
+exit
+---------------------------------------------------
+Lab 5: Container Lifecycle
+
+Stop:
+
+Shell
+docker stop nginx-lab
+
+Verify:
+
+Shell
+docker ps
+
+Show all containers:
+
+Shell
+docker ps -a
+ 
+
+Start again:
+
+Shell
+docker start nginx-lab
+
+Verify:
+
+Shell
+docker ps
+---------------------------------------------------------------
+Lab 6: Remove Container
+
+Stop:
+
+Shell
+docker stop nginx-lab
+
+Delete:
+
+Shell
+docker rm nginx-lab
+
+Verify:
+
+Shell
+docker ps -a
+
+Container should disappear.
+
+

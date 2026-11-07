@@ -1,0 +1,26 @@
+Commands Learned
+Images
+docker pull nginx
+
+docker images
+
+docker rmi IMAGE_ID
+
+Containers
+docker run
+
+docker ps
+
+docker ps -a
+
+docker stop
+
+docker start
+
+docker rm
+
+docker logs
+
+docker exec
+
+docker inspect
