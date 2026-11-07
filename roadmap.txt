@@ -1,0 +1,106 @@
+Learning Roadmap
+Phase 1 - Linux Fundamentals
+
+Topics:
+
+File Management
+User Management
+Permissions
+Networking
+Process Management
+Shell Scripting
+Phase 2 - Git
+
+Topics:
+
+Repository Management
+Branching
+Merging
+Rebase
+Tags
+Stash
+GitHub Workflow
+Phase 3 - Docker
+
+Topics:
+
+Images
+Containers
+Networks
+Volumes
+Dockerfile
+Docker Compose
+
+Projects:
+
+Nginx Deployment
+Custom Docker Image
+Multi-container Application
+Phase 4 - Jenkins
+
+Topics:
+
+Freestyle Jobs
+Pipelines
+Declarative Pipelines
+CI/CD Automation
+
+Projects:
+
+Build Pipeline
+Docker Integration
+GitHub Integration
+Phase 5 - Kubernetes
+
+Topics:
+
+Pods
+Deployments
+Services
+ConfigMaps
+Secrets
+Ingress
+Helm
+
+Projects:
+
+Nginx Deployment
+Kubernetes Applications
+Helm Charts
+Phase 6 - Terraform
+
+Topics:
+
+Providers
+Resources
+Variables
+Outputs
+State Management
+
+Projects:
+
+AWS Infrastructure Provisioning
+VPC Automation
+EC2 Deployment
+Phase 7 - AWS
+
+Topics:
+
+IAM
+EC2
+S3
+VPC
+CloudWatch
+Load Balancers
+
+Projects:
+
+Secure AWS Infrastructure
+CI/CD Deployment
+Kubernetes on AWS
+Goals
+Rebuild hands-on DevOps expertise
+Create a public portfolio of projects
+Prepare for DevOps interviews
+Demonstrate practical implementation skills
+Learn modern DevOps and Cloud practices
